@@ -8,11 +8,7 @@ struct ProfileView: View {
             VStack {
                 // Pic and stats
                 HStack {
-                    Image("BlackPanther")
-                        .resizable()
-                        .scaledToFill()
-                        .frame(width: 80, height: 80)
-                        .clipShape(Circle())
+                    CircleImage(image: "BlackPanther", width: 80, height: 80)
                     Spacer()
                     UserStatsView(value: "3", name: "Posts")
                     Spacer()

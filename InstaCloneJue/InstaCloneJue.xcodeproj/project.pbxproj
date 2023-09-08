@@ -17,6 +17,7 @@
 		79E315E22AAAAA1D00E9E586 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E315E12AAAAA1D00E9E586 /* FeedView.swift */; };
 		79E315E42AAAAB0B00E9E586 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E315E32AAAAB0B00E9E586 /* FeedCell.swift */; };
 		79E315E72AAAC22F00E9E586 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E315E62AAAC22F00E9E586 /* SearchView.swift */; };
+		79E315EB2AAAC41600E9E586 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E315EA2AAAC41600E9E586 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		79E315E12AAAAA1D00E9E586 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedView.swift; path = ../../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/View/Feed/FeedView.swift; sourceTree = "<group>"; };
 		79E315E32AAAAB0B00E9E586 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedCell.swift; path = ../../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/View/Feed/FeedCell.swift; sourceTree = "<group>"; };
 		79E315E62AAAC22F00E9E586 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchView.swift; path = ../../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/View/Search/SearchView.swift; sourceTree = "<group>"; };
+		79E315EA2AAAC41600E9E586 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CircleImage.swift; path = ../../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/View/Components/CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				79C645262AA180C400988F4A /* UserStatsView.swift */,
+				79E315EA2AAAC41600E9E586 /* CircleImage.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 				79C645212AA1737200988F4A /* MainTabView.swift in Sources */,
 				79E315E22AAAAA1D00E9E586 /* FeedView.swift in Sources */,
 				79C645272AA180C400988F4A /* UserStatsView.swift in Sources */,
+				79E315EB2AAAC41600E9E586 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

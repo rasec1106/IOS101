@@ -6,11 +6,7 @@ struct FeedCell: View {
             // Pic and name
             HStack {
                 // Image(systemName: "") // this is to use an IOS system image
-                Image("Batman") // this is to use an image from the ASSETS folder
-                    .resizable() // this modifier let us change the size of an image
-                    .scaledToFill() // this fills all the space the image is within and mantains the aspect ratio
-                    .frame(width: 40, height: 40) // we set a frame with those values
-                    .clipShape(Circle()) // this changes the shape to a circle
+                CircleImage(image: "Batman", width: 40, height: 40)
                 Text("I am Batman")
                     .font(.footnote)
                     .fontWeight(.semibold)
