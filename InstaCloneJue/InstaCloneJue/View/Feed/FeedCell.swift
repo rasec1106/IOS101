@@ -1,10 +1,3 @@
-//
-//  FeedCell.swift
-//  InstaCloneJue
-//
-//  Created by Suite on 7/09/23.
-//
-
 import SwiftUI
 
 struct FeedCell: View {
@@ -87,10 +80,6 @@ struct FeedCell: View {
                 .foregroundColor(.gray)
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .padding(.leading, 8)
-                
-            
-            
-            
             
         } // end of main VStack
     }
