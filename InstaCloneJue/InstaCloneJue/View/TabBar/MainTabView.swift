@@ -7,7 +7,7 @@ struct MainTabView: View {
                 .tabItem {
                     Image(systemName: "house")
                 }
-            Text("Segundo Tab")
+            SearchView()
                 .tabItem {
                     Image(systemName: "magnifyingglass")
                 }
