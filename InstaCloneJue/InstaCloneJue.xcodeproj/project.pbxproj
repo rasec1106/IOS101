@@ -14,6 +14,8 @@
 		79C645212AA1737200988F4A /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C645202AA1737200988F4A /* MainTabView.swift */; };
 		79C645242AA17B7B00988F4A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C645232AA17B7B00988F4A /* ProfileView.swift */; };
 		79C645272AA180C400988F4A /* UserStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C645262AA180C400988F4A /* UserStatsView.swift */; };
+		79E315E22AAAAA1D00E9E586 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E315E12AAAAA1D00E9E586 /* FeedView.swift */; };
+		79E315E42AAAAB0B00E9E586 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E315E32AAAAB0B00E9E586 /* FeedCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		79C645202AA1737200988F4A /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		79C645232AA17B7B00988F4A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		79C645262AA180C400988F4A /* UserStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatsView.swift; sourceTree = "<group>"; };
+		79E315E12AAAAA1D00E9E586 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedView.swift; path = ../../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/View/Feed/FeedView.swift; sourceTree = "<group>"; };
+		79E315E32AAAAB0B00E9E586 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedCell.swift; path = ../../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/View/Feed/FeedCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,7 @@
 		79C6451D2AA1713C00988F4A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				79E315E02AAAA94100E9E586 /* Feed */,
 				79C645252AA1808C00988F4A /* Components */,
 				79C645222AA17B3D00988F4A /* Profile */,
 				79C6451F2AA171DB00988F4A /* TabBar */,
@@ -122,6 +127,15 @@
 				79C645262AA180C400988F4A /* UserStatsView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		79E315E02AAAA94100E9E586 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				79E315E12AAAAA1D00E9E586 /* FeedView.swift */,
+				79E315E32AAAAB0B00E9E586 /* FeedCell.swift */,
+			);
+			path = Feed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,10 +208,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79E315E42AAAAB0B00E9E586 /* FeedCell.swift in Sources */,
 				79C645242AA17B7B00988F4A /* ProfileView.swift in Sources */,
 				79C645112AA16E2300988F4A /* ContentView.swift in Sources */,
 				79C6450F2AA16E2300988F4A /* InstaCloneJueApp.swift in Sources */,
 				79C645212AA1737200988F4A /* MainTabView.swift in Sources */,
+				79E315E22AAAAA1D00E9E586 /* FeedView.swift in Sources */,
 				79C645272AA180C400988F4A /* UserStatsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

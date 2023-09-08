@@ -15,7 +15,7 @@ struct MainTabView: View {
                 .tabItem {
                     Image(systemName: "plus.square")
                 }
-            Text("Cuarto Tab")
+            FeedCell()
                 .tabItem {
                     Image(systemName: "heart")
                 }
