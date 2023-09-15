@@ -20,9 +20,7 @@ struct AddEmailView: View {
                 // Email
                 TextField("Enter your email", text: $email)
                     .autocapitalization(.none)
-                    .font(.subheadline)
-                    .padding(12)
-                    .background(Color(.systemGray6))
+                    .modifier(AuthTextModifier())
                     .cornerRadius(10)
                     
 //                NavigationLink {

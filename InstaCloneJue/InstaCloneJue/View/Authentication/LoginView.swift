@@ -16,17 +16,11 @@ struct LoginView: View {
                     // Email
                     TextField("Enter your email", text: $email)
                         .autocapitalization(.none)
-                        .font(.subheadline)
-                        .padding(12)
-                        .background(Color(.systemGray6))
-                        .cornerRadius(10)
+                        .modifier(AuthTextModifier())
                     // Password
                     SecureField("Enter your password", text: $password)
                         .autocapitalization(.none)
-                        .font(.subheadline)
-                        .padding(12)
-                        .background(Color(.systemGray6))
-                        .cornerRadius(10)
+                        .modifier(AuthTextModifier())
                 } // end of VStack TextField
                 .padding(.horizontal,24)
                 
