@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		799326382AB3E5EF0064B0A1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799326372AB3E5EF0064B0A1 /* LoginView.swift */; };
 		79C6450F2AA16E2300988F4A /* InstaCloneJueApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C6450E2AA16E2300988F4A /* InstaCloneJueApp.swift */; };
 		79C645112AA16E2300988F4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C645102AA16E2300988F4A /* ContentView.swift */; };
 		79C645132AA16E2900988F4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79C645122AA16E2900988F4A /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		799326372AB3E5EF0064B0A1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = ../../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/View/Authentication/LoginView.swift; sourceTree = "<group>"; };
 		79C6450B2AA16E2300988F4A /* InstaCloneJue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaCloneJue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C6450E2AA16E2300988F4A /* InstaCloneJueApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaCloneJueApp.swift; sourceTree = "<group>"; };
 		79C645102AA16E2300988F4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -46,6 +48,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		799326362AB3E4D00064B0A1 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				799326372AB3E5EF0064B0A1 /* LoginView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
 		79C645022AA16E2300988F4A = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +104,7 @@
 		79C6451D2AA1713C00988F4A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				799326362AB3E4D00064B0A1 /* Authentication */,
 				79E315E52AAAC18600E9E586 /* Search */,
 				79E315E02AAAA94100E9E586 /* Feed */,
 				79C645252AA1808C00988F4A /* Components */,
@@ -230,6 +241,7 @@
 				79C645212AA1737200988F4A /* MainTabView.swift in Sources */,
 				79E315E22AAAAA1D00E9E586 /* FeedView.swift in Sources */,
 				79C645272AA180C400988F4A /* UserStatsView.swift in Sources */,
+				799326382AB3E5EF0064B0A1 /* LoginView.swift in Sources */,
 				79E315EB2AAAC41600E9E586 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
