@@ -83,7 +83,8 @@ struct LoginView: View {
                 
                 NavigationLink {
                     // Destination View
-                    Text("Sign up")
+                    AddEmailView()
+                        .navigationBarBackButtonHidden(true) // this is to hide the default Back button
                 } label: {
                     // Sign up link
                     HStack {
