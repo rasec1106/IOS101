@@ -17,6 +17,7 @@
 		79C645212AA1737200988F4A /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C645202AA1737200988F4A /* MainTabView.swift */; };
 		79C645242AA17B7B00988F4A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C645232AA17B7B00988F4A /* ProfileView.swift */; };
 		79C645272AA180C400988F4A /* UserStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C645262AA180C400988F4A /* UserStatsView.swift */; };
+		79D96B892ABD22340080DED9 /* CreateUsernameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D96B882ABD22340080DED9 /* CreateUsernameView.swift */; };
 		79E315E22AAAAA1D00E9E586 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E315E12AAAAA1D00E9E586 /* FeedView.swift */; };
 		79E315E42AAAAB0B00E9E586 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E315E32AAAAB0B00E9E586 /* FeedCell.swift */; };
 		79E315E72AAAC22F00E9E586 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E315E62AAAC22F00E9E586 /* SearchView.swift */; };
@@ -35,6 +36,7 @@
 		79C645202AA1737200988F4A /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		79C645232AA17B7B00988F4A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		79C645262AA180C400988F4A /* UserStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatsView.swift; sourceTree = "<group>"; };
+		79D96B882ABD22340080DED9 /* CreateUsernameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CreateUsernameView.swift; path = ../../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/View/Authentication/CreateUsernameView.swift; sourceTree = "<group>"; };
 		79E315E12AAAAA1D00E9E586 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedView.swift; path = ../../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/View/Feed/FeedView.swift; sourceTree = "<group>"; };
 		79E315E32AAAAB0B00E9E586 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedCell.swift; path = ../../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/View/Feed/FeedCell.swift; sourceTree = "<group>"; };
 		79E315E62AAAC22F00E9E586 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchView.swift; path = ../../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/View/Search/SearchView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				799326372AB3E5EF0064B0A1 /* LoginView.swift */,
 				799326392AB3F9490064B0A1 /* AddEmailView.swift */,
 				7993263B2AB401A70064B0A1 /* AuthTextModifier.swift */,
+				79D96B882ABD22340080DED9 /* CreateUsernameView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79E315E42AAAAB0B00E9E586 /* FeedCell.swift in Sources */,
+				79D96B892ABD22340080DED9 /* CreateUsernameView.swift in Sources */,
 				79C645242AA17B7B00988F4A /* ProfileView.swift in Sources */,
 				79C645112AA16E2300988F4A /* ContentView.swift in Sources */,
 				79C6450F2AA16E2300988F4A /* InstaCloneJueApp.swift in Sources */,
