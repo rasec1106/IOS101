@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct ProfileView: View {
+    let user: User
     private let columns = [GridItem(.flexible()), GridItem(.flexible()), GridItem(.flexible())]
     var body: some View {
         VStack {
@@ -8,7 +9,7 @@ struct ProfileView: View {
             VStack {
                 // Pic and stats
                 HStack {
-                    CircleImage(image: "BlackPanther", width: 80, height: 80)
+                    CircleImage(image: user.profileImageUrl ?? "", width: 80, height: 80)
                     Spacer()
                     UserStatsView(value: "3", name: "Posts")
                     Spacer()
@@ -19,38 +20,22 @@ struct ProfileView: View {
                 
                 // Name and nickname
                 VStack(alignment: .leading, spacing: 8) {
-                    Text("Cesar Herrera")
+                    Text(user.fullname ?? "Username")
                         .font(.footnote)
                         .fontWeight(.semibold)
-                    Text("rasec")
+                    Text(user.nickname ?? "Nickname")
                         .font(.footnote)
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
-                
-                // Button
-                Button {
-                    
-                } label: {
-                    Text("Edit Profile")
-                        .font(.subheadline)
-                        .fontWeight(.bold)
-                        .foregroundColor(.black)
-                        .frame(width: 360,height: 32)
-                        .overlay(
-                            RoundedRectangle(cornerRadius: 6)
-                                .stroke(Color.gray,lineWidth: 1)
-                        )
-                }
-                
-
             }
             .padding(.horizontal)
-            
             // Post
             ScrollView {
                 LazyVGrid(columns: columns) {
-                    ForEach(0...15, id:\.self) {
-                        index in Image("BlackPanther").resizable().scaledToFill()
+                    ForEach(0...15, id:\.self) { index in
+                        Image(user.profileImageUrl ?? "")
+                            .resizable()
+                            .scaledToFill()
                     }
                 }
             }
@@ -65,11 +50,5 @@ struct ProfileView: View {
             }
         }
         
-    }
-}
-
-struct ProfileView_Previews: PreviewProvider {
-    static var previews: some View {
-        ProfileView()
     }
 }
