@@ -10,6 +10,9 @@
 		79437EDB2ACFA6D200C81611 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79437EDA2ACFA6D200C81611 /* User.swift */; };
 		79437EDE2ACFA94E00C81611 /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79437EDD2ACFA94E00C81611 /* CurrentUserProfileView.swift */; };
 		79437EE02ACFB5E100C81611 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79437EDF2ACFB5E100C81611 /* GoogleService-Info.plist */; };
+		79437EE32ACFB8E000C81611 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 79437EE22ACFB8E000C81611 /* FirebaseAuth */; };
+		79437EE52ACFB8E000C81611 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 79437EE42ACFB8E000C81611 /* FirebaseFirestore */; };
+		79437EE72ACFB8E000C81611 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 79437EE62ACFB8E000C81611 /* FirebaseStorage */; };
 		799326382AB3E5EF0064B0A1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799326372AB3E5EF0064B0A1 /* LoginView.swift */; };
 		7993263A2AB3F9490064B0A1 /* AddEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799326392AB3F9490064B0A1 /* AddEmailView.swift */; };
 		7993263C2AB401A70064B0A1 /* AuthTextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7993263B2AB401A70064B0A1 /* AuthTextModifier.swift */; };
@@ -60,6 +63,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79437EE32ACFB8E000C81611 /* FirebaseAuth in Frameworks */,
+				79437EE52ACFB8E000C81611 /* FirebaseFirestore in Frameworks */,
+				79437EE72ACFB8E000C81611 /* FirebaseStorage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +220,11 @@
 			dependencies = (
 			);
 			name = InstaCloneJue;
+			packageProductDependencies = (
+				79437EE22ACFB8E000C81611 /* FirebaseAuth */,
+				79437EE42ACFB8E000C81611 /* FirebaseFirestore */,
+				79437EE62ACFB8E000C81611 /* FirebaseStorage */,
+			);
 			productName = InstaCloneJue;
 			productReference = 79C6450B2AA16E2300988F4A /* InstaCloneJue.app */;
 			productType = "com.apple.product-type.application";
@@ -242,6 +253,9 @@
 				Base,
 			);
 			mainGroup = 79C645022AA16E2300988F4A;
+			packageReferences = (
+				79437EE12ACFB8E000C81611 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 79C6450C2AA16E2300988F4A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -485,6 +499,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		79437EE12ACFB8E000C81611 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		79437EE22ACFB8E000C81611 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79437EE12ACFB8E000C81611 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		79437EE42ACFB8E000C81611 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79437EE12ACFB8E000C81611 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		79437EE62ACFB8E000C81611 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 79437EE12ACFB8E000C81611 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 79C645032AA16E2300988F4A /* Project object */;
 }
