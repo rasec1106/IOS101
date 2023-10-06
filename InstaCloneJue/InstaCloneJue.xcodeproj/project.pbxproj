@@ -101,9 +101,9 @@
 		79C6450D2AA16E2300988F4A /* InstaCloneJue */ = {
 			isa = PBXGroup;
 			children = (
-				79437ED62ACF9CEC00C81611 /* Model */,
 				79C6451E2AA1716900988F4A /* ViewModel */,
 				79C6451D2AA1713C00988F4A /* View */,
+				79437ED62ACF9CEC00C81611 /* Model */,
 				79C6450E2AA16E2300988F4A /* InstaCloneJueApp.swift */,
 				79C645102AA16E2300988F4A /* ContentView.swift */,
 				79C645122AA16E2900988F4A /* Assets.xcassets */,
