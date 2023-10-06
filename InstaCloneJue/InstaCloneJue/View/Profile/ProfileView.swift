@@ -55,7 +55,16 @@ struct ProfileView: View {
                 }
             }
             
+        } // end of VStack
+        .navigationTitle("Profile")
+        .navigationBarTitleDisplayMode(.inline)
+        .toolbar {
+            ToolbarItem(placement: .navigationBarTrailing){
+                Image(systemName: "line.horizontal.3")
+                    .imageScale(.large)
+            }
         }
+        
     }
 }
 
