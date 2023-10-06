@@ -22,10 +22,9 @@ class AppDelegate: NSObject, UIApplicationDelegate {
 
 @main
 struct InstaCloneJueApp: App {
+    // register app delegate for Firebase setup
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     var body: some Scene {
-        // register app delegate for Firebase setup
-        @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
-
         WindowGroup {
             // ContentView()
             MainTabView()
