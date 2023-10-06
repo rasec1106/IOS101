@@ -6,13 +6,13 @@ struct SearchView: View {
         NavigationView {
             ScrollView {
                 LazyVStack {
-                    ForEach(0...18,id: \.self) { contact in
+                    ForEach(User.MOCK_USERS) { user in
                         HStack {
-                            CircleImage(image: "Batman", width: 40, height: 40)
+                            CircleImage(image: user.profileImageUrl ?? "", width: 40, height: 40)
                             VStack(alignment: .leading) {
-                                Text("Batman")
+                                Text(user.username)
                                     .fontWeight(.semibold)
-                                Text("Bruce Wayne")
+                                Text(user.fullname ?? "User")
                                     .font(.footnote)
                             }
                             Spacer()
@@ -20,7 +20,7 @@ struct SearchView: View {
                         .padding(.leading, 8)
                     } // end of ForEach
                 } // end of LazyVStack
-                .searchable(text: $search) // to create the searchbox (***to be reviewed in the next lesson***)
+                .searchable(text: $search, prompt: "Search...") // to create the searchbox (***to be reviewed in the next lesson***)
             } // end of ScrollView
         }
         .navigationTitle("Explore")

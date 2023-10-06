@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		79437ED82ACF9D6E00C81611 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79437ED72ACF9D6E00C81611 /* User.swift */; };
+		79437EDB2ACFA6D200C81611 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79437EDA2ACFA6D200C81611 /* User.swift */; };
 		799326382AB3E5EF0064B0A1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799326372AB3E5EF0064B0A1 /* LoginView.swift */; };
 		7993263A2AB3F9490064B0A1 /* AddEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799326392AB3F9490064B0A1 /* AddEmailView.swift */; };
 		7993263C2AB401A70064B0A1 /* AuthTextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7993263B2AB401A70064B0A1 /* AuthTextModifier.swift */; };
@@ -29,7 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		79437ED72ACF9D6E00C81611 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../../../../../../../Suite/Documents/User.swift; sourceTree = "<group>"; };
+		79437EDA2ACFA6D200C81611 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/Model/User.swift; sourceTree = "<group>"; };
 		799326372AB3E5EF0064B0A1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = ../../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/View/Authentication/LoginView.swift; sourceTree = "<group>"; };
 		799326392AB3F9490064B0A1 /* AddEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddEmailView.swift; path = ../../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/View/Authentication/AddEmailView.swift; sourceTree = "<group>"; };
 		7993263B2AB401A70064B0A1 /* AuthTextModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTextModifier.swift; sourceTree = "<group>"; };
@@ -62,12 +62,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		79437ED62ACF9CEC00C81611 /* Model */ = {
+		79437ED92ACFA66700C81611 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				79437ED72ACF9D6E00C81611 /* User.swift */,
+				79437EDA2ACFA6D200C81611 /* User.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		79437EDC2ACFA6ED00C81611 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		799326362AB3E4D00064B0A1 /* Authentication */ = {
@@ -101,9 +108,9 @@
 		79C6450D2AA16E2300988F4A /* InstaCloneJue */ = {
 			isa = PBXGroup;
 			children = (
-				79C6451E2AA1716900988F4A /* ViewModel */,
+				79437EDC2ACFA6ED00C81611 /* ViewModel */,
+				79437ED92ACFA66700C81611 /* Model */,
 				79C6451D2AA1713C00988F4A /* View */,
-				79437ED62ACF9CEC00C81611 /* Model */,
 				79C6450E2AA16E2300988F4A /* InstaCloneJueApp.swift */,
 				79C645102AA16E2300988F4A /* ContentView.swift */,
 				79C645122AA16E2900988F4A /* Assets.xcassets */,
@@ -132,13 +139,6 @@
 				79C6451F2AA171DB00988F4A /* TabBar */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		79C6451E2AA1716900988F4A /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		79C6451F2AA171DB00988F4A /* TabBar */ = {
@@ -269,13 +269,13 @@
 				79C645112AA16E2300988F4A /* ContentView.swift in Sources */,
 				79D96B902ABD34C40080DED9 /* UploadPostView.swift in Sources */,
 				79C6450F2AA16E2300988F4A /* InstaCloneJueApp.swift in Sources */,
-				79437ED82ACF9D6E00C81611 /* User.swift in Sources */,
 				79E315E72AAAC22F00E9E586 /* SearchView.swift in Sources */,
 				79C645212AA1737200988F4A /* MainTabView.swift in Sources */,
 				79E315E22AAAAA1D00E9E586 /* FeedView.swift in Sources */,
 				79C645272AA180C400988F4A /* UserStatsView.swift in Sources */,
 				79D96B8D2ABD31EE0080DED9 /* CompleteSignUpView.swift in Sources */,
 				799326382AB3E5EF0064B0A1 /* LoginView.swift in Sources */,
+				79437EDB2ACFA6D200C81611 /* User.swift in Sources */,
 				7993263A2AB3F9490064B0A1 /* AddEmailView.swift in Sources */,
 				79E315EB2AAAC41600E9E586 /* CircleImage.swift in Sources */,
 				7993263C2AB401A70064B0A1 /* AuthTextModifier.swift in Sources */,
