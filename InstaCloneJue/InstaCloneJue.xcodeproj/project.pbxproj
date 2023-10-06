@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79437ED82ACF9D6E00C81611 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79437ED72ACF9D6E00C81611 /* User.swift */; };
 		799326382AB3E5EF0064B0A1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799326372AB3E5EF0064B0A1 /* LoginView.swift */; };
 		7993263A2AB3F9490064B0A1 /* AddEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 799326392AB3F9490064B0A1 /* AddEmailView.swift */; };
 		7993263C2AB401A70064B0A1 /* AuthTextModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7993263B2AB401A70064B0A1 /* AuthTextModifier.swift */; };
@@ -18,6 +19,9 @@
 		79C645242AA17B7B00988F4A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C645232AA17B7B00988F4A /* ProfileView.swift */; };
 		79C645272AA180C400988F4A /* UserStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C645262AA180C400988F4A /* UserStatsView.swift */; };
 		79D96B892ABD22340080DED9 /* CreateUsernameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D96B882ABD22340080DED9 /* CreateUsernameView.swift */; };
+		79D96B8B2ABD2ED40080DED9 /* CreatePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D96B8A2ABD2ED40080DED9 /* CreatePasswordView.swift */; };
+		79D96B8D2ABD31EE0080DED9 /* CompleteSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D96B8C2ABD31EE0080DED9 /* CompleteSignUpView.swift */; };
+		79D96B902ABD34C40080DED9 /* UploadPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D96B8F2ABD34C40080DED9 /* UploadPostView.swift */; };
 		79E315E22AAAAA1D00E9E586 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E315E12AAAAA1D00E9E586 /* FeedView.swift */; };
 		79E315E42AAAAB0B00E9E586 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E315E32AAAAB0B00E9E586 /* FeedCell.swift */; };
 		79E315E72AAAC22F00E9E586 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E315E62AAAC22F00E9E586 /* SearchView.swift */; };
@@ -25,9 +29,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		79437ED72ACF9D6E00C81611 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../../../../../../../Suite/Documents/User.swift; sourceTree = "<group>"; };
 		799326372AB3E5EF0064B0A1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = ../../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/View/Authentication/LoginView.swift; sourceTree = "<group>"; };
 		799326392AB3F9490064B0A1 /* AddEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddEmailView.swift; path = ../../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/View/Authentication/AddEmailView.swift; sourceTree = "<group>"; };
-		7993263B2AB401A70064B0A1 /* AuthTextModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AuthTextModifier.swift; path = ../../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/View/Authentication/AuthTextModifier.swift; sourceTree = "<group>"; };
+		7993263B2AB401A70064B0A1 /* AuthTextModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTextModifier.swift; sourceTree = "<group>"; };
 		79C6450B2AA16E2300988F4A /* InstaCloneJue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaCloneJue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79C6450E2AA16E2300988F4A /* InstaCloneJueApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaCloneJueApp.swift; sourceTree = "<group>"; };
 		79C645102AA16E2300988F4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -37,6 +42,9 @@
 		79C645232AA17B7B00988F4A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		79C645262AA180C400988F4A /* UserStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatsView.swift; sourceTree = "<group>"; };
 		79D96B882ABD22340080DED9 /* CreateUsernameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CreateUsernameView.swift; path = ../../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/View/Authentication/CreateUsernameView.swift; sourceTree = "<group>"; };
+		79D96B8A2ABD2ED40080DED9 /* CreatePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CreatePasswordView.swift; path = ../../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/View/Authentication/CreatePasswordView.swift; sourceTree = "<group>"; };
+		79D96B8C2ABD31EE0080DED9 /* CompleteSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CompleteSignUpView.swift; path = ../../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/View/Authentication/CompleteSignUpView.swift; sourceTree = "<group>"; };
+		79D96B8F2ABD34C40080DED9 /* UploadPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UploadPostView.swift; path = ../../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/View/UploadPost/UploadPostView.swift; sourceTree = "<group>"; };
 		79E315E12AAAAA1D00E9E586 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedView.swift; path = ../../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/View/Feed/FeedView.swift; sourceTree = "<group>"; };
 		79E315E32AAAAB0B00E9E586 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedCell.swift; path = ../../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/View/Feed/FeedCell.swift; sourceTree = "<group>"; };
 		79E315E62AAAC22F00E9E586 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchView.swift; path = ../../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/View/Search/SearchView.swift; sourceTree = "<group>"; };
@@ -54,13 +62,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		79437ED62ACF9CEC00C81611 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				79437ED72ACF9D6E00C81611 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		799326362AB3E4D00064B0A1 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
 				799326372AB3E5EF0064B0A1 /* LoginView.swift */,
 				799326392AB3F9490064B0A1 /* AddEmailView.swift */,
-				7993263B2AB401A70064B0A1 /* AuthTextModifier.swift */,
 				79D96B882ABD22340080DED9 /* CreateUsernameView.swift */,
+				79D96B8A2ABD2ED40080DED9 /* CreatePasswordView.swift */,
+				79D96B8C2ABD31EE0080DED9 /* CompleteSignUpView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -84,9 +101,9 @@
 		79C6450D2AA16E2300988F4A /* InstaCloneJue */ = {
 			isa = PBXGroup;
 			children = (
+				79437ED62ACF9CEC00C81611 /* Model */,
 				79C6451E2AA1716900988F4A /* ViewModel */,
 				79C6451D2AA1713C00988F4A /* View */,
-				79C6451C2AA170D700988F4A /* Model */,
 				79C6450E2AA16E2300988F4A /* InstaCloneJueApp.swift */,
 				79C645102AA16E2300988F4A /* ContentView.swift */,
 				79C645122AA16E2900988F4A /* Assets.xcassets */,
@@ -103,16 +120,10 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		79C6451C2AA170D700988F4A /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		79C6451D2AA1713C00988F4A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				79D96B8E2ABD34AE0080DED9 /* UploadPost */,
 				799326362AB3E4D00064B0A1 /* Authentication */,
 				79E315E52AAAC18600E9E586 /* Search */,
 				79E315E02AAAA94100E9E586 /* Feed */,
@@ -149,10 +160,19 @@
 		79C645252AA1808C00988F4A /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				7993263B2AB401A70064B0A1 /* AuthTextModifier.swift */,
 				79C645262AA180C400988F4A /* UserStatsView.swift */,
 				79E315EA2AAAC41600E9E586 /* CircleImage.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		79D96B8E2ABD34AE0080DED9 /* UploadPost */ = {
+			isa = PBXGroup;
+			children = (
+				79D96B8F2ABD34C40080DED9 /* UploadPostView.swift */,
+			);
+			path = UploadPost;
 			sourceTree = "<group>";
 		};
 		79E315E02AAAA94100E9E586 /* Feed */ = {
@@ -243,14 +263,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				79E315E42AAAAB0B00E9E586 /* FeedCell.swift in Sources */,
+				79D96B8B2ABD2ED40080DED9 /* CreatePasswordView.swift in Sources */,
 				79D96B892ABD22340080DED9 /* CreateUsernameView.swift in Sources */,
 				79C645242AA17B7B00988F4A /* ProfileView.swift in Sources */,
 				79C645112AA16E2300988F4A /* ContentView.swift in Sources */,
+				79D96B902ABD34C40080DED9 /* UploadPostView.swift in Sources */,
 				79C6450F2AA16E2300988F4A /* InstaCloneJueApp.swift in Sources */,
+				79437ED82ACF9D6E00C81611 /* User.swift in Sources */,
 				79E315E72AAAC22F00E9E586 /* SearchView.swift in Sources */,
 				79C645212AA1737200988F4A /* MainTabView.swift in Sources */,
 				79E315E22AAAAA1D00E9E586 /* FeedView.swift in Sources */,
 				79C645272AA180C400988F4A /* UserStatsView.swift in Sources */,
+				79D96B8D2ABD31EE0080DED9 /* CompleteSignUpView.swift in Sources */,
 				799326382AB3E5EF0064B0A1 /* LoginView.swift in Sources */,
 				7993263A2AB3F9490064B0A1 /* AddEmailView.swift in Sources */,
 				79E315EB2AAAC41600E9E586 /* CircleImage.swift in Sources */,

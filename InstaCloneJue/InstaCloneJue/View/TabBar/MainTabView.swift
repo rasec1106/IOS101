@@ -11,7 +11,7 @@ struct MainTabView: View {
                 .tabItem {
                     Image(systemName: "magnifyingglass")
                 }
-            Text("Tercer Tab")
+            UploadPostView()
                 .tabItem {
                     Image(systemName: "plus.square")
                 }

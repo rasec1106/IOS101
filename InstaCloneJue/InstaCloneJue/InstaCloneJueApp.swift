@@ -12,8 +12,8 @@ struct InstaCloneJueApp: App {
     var body: some Scene {
         WindowGroup {
             // ContentView()
-//            MainTabView()
-            LoginView()
+            MainTabView()
+//            LoginView()
         }
     }
 }

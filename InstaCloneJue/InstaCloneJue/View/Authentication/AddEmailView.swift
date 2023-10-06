@@ -44,7 +44,8 @@ struct AddEmailView: View {
                     
                 } label: {
                     NavigationLink {
-                        Text("Hello")
+                        CreateUsernameView()
+                            .navigationBarBackButtonHidden(true) // this is to hide the default Back button
                     } label: {
                         Text("Next")
                             .font(.footnote)
