@@ -41,7 +41,7 @@ struct UploadPostView: View {
         } // end of VStack
         .padding(.horizontal, 8)
         .onAppear{
-            isPresented.toggle()
+            isPresented.toggle() 
         }
         .photosPicker(isPresented: $isPresented, selection: $photoItem)
     }
