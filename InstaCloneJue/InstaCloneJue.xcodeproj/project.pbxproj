@@ -23,6 +23,8 @@
 		79C645212AA1737200988F4A /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C645202AA1737200988F4A /* MainTabView.swift */; };
 		79C645242AA17B7B00988F4A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C645232AA17B7B00988F4A /* ProfileView.swift */; };
 		79C645272AA180C400988F4A /* UserStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C645262AA180C400988F4A /* UserStatsView.swift */; };
+		79D92EA12AF4839900B13BC0 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D92EA02AF4839900B13BC0 /* AuthService.swift */; };
+		79D92EA32AF48F9700B13BC0 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D92EA22AF48F9700B13BC0 /* ContentViewModel.swift */; };
 		79D96B892ABD22340080DED9 /* CreateUsernameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D96B882ABD22340080DED9 /* CreateUsernameView.swift */; };
 		79D96B8B2ABD2ED40080DED9 /* CreatePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D96B8A2ABD2ED40080DED9 /* CreatePasswordView.swift */; };
 		79D96B8D2ABD31EE0080DED9 /* CompleteSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D96B8C2ABD31EE0080DED9 /* CompleteSignUpView.swift */; };
@@ -48,6 +50,8 @@
 		79C645202AA1737200988F4A /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		79C645232AA17B7B00988F4A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		79C645262AA180C400988F4A /* UserStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatsView.swift; sourceTree = "<group>"; };
+		79D92EA02AF4839900B13BC0 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AuthService.swift; path = ../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/Service/AuthService.swift; sourceTree = "<group>"; };
+		79D92EA22AF48F9700B13BC0 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentViewModel.swift; path = ../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/ViewModel/ContentViewModel.swift; sourceTree = "<group>"; };
 		79D96B882ABD22340080DED9 /* CreateUsernameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CreateUsernameView.swift; path = ../../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/View/Authentication/CreateUsernameView.swift; sourceTree = "<group>"; };
 		79D96B8A2ABD2ED40080DED9 /* CreatePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CreatePasswordView.swift; path = ../../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/View/Authentication/CreatePasswordView.swift; sourceTree = "<group>"; };
 		79D96B8C2ABD31EE0080DED9 /* CompleteSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CompleteSignUpView.swift; path = ../../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/View/Authentication/CompleteSignUpView.swift; sourceTree = "<group>"; };
@@ -83,6 +87,7 @@
 		79437EDC2ACFA6ED00C81611 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				79D92EA22AF48F9700B13BC0 /* ContentViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 		79C6450D2AA16E2300988F4A /* InstaCloneJue */ = {
 			isa = PBXGroup;
 			children = (
+				79D92E9F2AF4826A00B13BC0 /* Service */,
 				79437EDC2ACFA6ED00C81611 /* ViewModel */,
 				79437ED92ACFA66700C81611 /* Model */,
 				79C6451D2AA1713C00988F4A /* View */,
@@ -177,6 +183,14 @@
 				79E315EA2AAAC41600E9E586 /* CircleImage.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		79D92E9F2AF4826A00B13BC0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				79D92EA02AF4839900B13BC0 /* AuthService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 		79D96B8E2ABD34AE0080DED9 /* UploadPost */ = {
@@ -287,8 +301,10 @@
 				79D96B8B2ABD2ED40080DED9 /* CreatePasswordView.swift in Sources */,
 				79D96B892ABD22340080DED9 /* CreateUsernameView.swift in Sources */,
 				79C645242AA17B7B00988F4A /* ProfileView.swift in Sources */,
+				79D92EA32AF48F9700B13BC0 /* ContentViewModel.swift in Sources */,
 				79C645112AA16E2300988F4A /* ContentView.swift in Sources */,
 				79D96B902ABD34C40080DED9 /* UploadPostView.swift in Sources */,
+				79D92EA12AF4839900B13BC0 /* AuthService.swift in Sources */,
 				79C6450F2AA16E2300988F4A /* InstaCloneJueApp.swift in Sources */,
 				79E315E72AAAC22F00E9E586 /* SearchView.swift in Sources */,
 				79C645212AA1737200988F4A /* MainTabView.swift in Sources */,
