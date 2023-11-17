@@ -63,6 +63,9 @@ struct CurrentUserProfileView: View {
                 ToolbarItem(placement: .navigationBarTrailing){
                     Image(systemName: "line.horizontal.3")
                         .imageScale(.large)
+                        .onTapGesture{
+                            AuthService.shared.signOut()
+                        }
                 }
             }
         } // end of NavigationStack
