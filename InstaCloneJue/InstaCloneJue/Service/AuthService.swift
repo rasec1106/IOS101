@@ -11,7 +11,8 @@ class AuthService{
     }
     
     func login(email: String, password: String) async throws {
-        
+        let result = try await Auth.auth().signIn(withEmail: email, password: password)
+        self.userSession = result.user
     }
     
     func createUser(email: String, username: String, password: String) async throws {

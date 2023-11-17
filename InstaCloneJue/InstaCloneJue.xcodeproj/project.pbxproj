@@ -34,6 +34,7 @@
 		79E315EB2AAAC41600E9E586 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E315EA2AAAC41600E9E586 /* CircleImage.swift */; };
 		79E762D42B06F91000B185BB /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E762D32B06F91000B185BB /* RegisterViewModel.swift */; };
 		79E762D62B0700AB00B185BB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79E762D52B0700A900B185BB /* GoogleService-Info.plist */; };
+		79E762D82B070A4700B185BB /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E762D72B070A4700B185BB /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		79E315EA2AAAC41600E9E586 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CircleImage.swift; path = ../../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/View/Components/CircleImage.swift; sourceTree = "<group>"; };
 		79E762D32B06F91000B185BB /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegisterViewModel.swift; path = ../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/ViewModel/RegisterViewModel.swift; sourceTree = "<group>"; };
 		79E762D52B0700A900B185BB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		79E762D72B070A4700B185BB /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewModel.swift; path = ../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/ViewModel/LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			children = (
 				79D92EA22AF48F9700B13BC0 /* ContentViewModel.swift */,
 				79E762D32B06F91000B185BB /* RegisterViewModel.swift */,
+				79E762D72B070A4700B185BB /* LoginViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 			files = (
 				79E315E42AAAAB0B00E9E586 /* FeedCell.swift in Sources */,
 				79D96B8B2ABD2ED40080DED9 /* CreatePasswordView.swift in Sources */,
+				79E762D82B070A4700B185BB /* LoginViewModel.swift in Sources */,
 				79D96B892ABD22340080DED9 /* CreateUsernameView.swift in Sources */,
 				79C645242AA17B7B00988F4A /* ProfileView.swift in Sources */,
 				79D92EA32AF48F9700B13BC0 /* ContentViewModel.swift in Sources */,
