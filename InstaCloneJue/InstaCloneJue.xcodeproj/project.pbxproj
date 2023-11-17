@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		79437EDB2ACFA6D200C81611 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79437EDA2ACFA6D200C81611 /* User.swift */; };
 		79437EDE2ACFA94E00C81611 /* CurrentUserProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79437EDD2ACFA94E00C81611 /* CurrentUserProfileView.swift */; };
-		79437EE02ACFB5E100C81611 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79437EDF2ACFB5E100C81611 /* GoogleService-Info.plist */; };
 		79437EE32ACFB8E000C81611 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 79437EE22ACFB8E000C81611 /* FirebaseAuth */; };
 		79437EE52ACFB8E000C81611 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 79437EE42ACFB8E000C81611 /* FirebaseFirestore */; };
 		79437EE72ACFB8E000C81611 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 79437EE62ACFB8E000C81611 /* FirebaseStorage */; };
@@ -34,12 +33,12 @@
 		79E315E72AAAC22F00E9E586 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E315E62AAAC22F00E9E586 /* SearchView.swift */; };
 		79E315EB2AAAC41600E9E586 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E315EA2AAAC41600E9E586 /* CircleImage.swift */; };
 		79E762D42B06F91000B185BB /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E762D32B06F91000B185BB /* RegisterViewModel.swift */; };
+		79E762D62B0700AB00B185BB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79E762D52B0700A900B185BB /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		79437EDA2ACFA6D200C81611 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/Model/User.swift; sourceTree = "<group>"; };
 		79437EDD2ACFA94E00C81611 /* CurrentUserProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CurrentUserProfileView.swift; path = ../../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/View/Profile/CurrentUserProfileView.swift; sourceTree = "<group>"; };
-		79437EDF2ACFB5E100C81611 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		799326372AB3E5EF0064B0A1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = ../../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/View/Authentication/LoginView.swift; sourceTree = "<group>"; };
 		799326392AB3F9490064B0A1 /* AddEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AddEmailView.swift; path = ../../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/View/Authentication/AddEmailView.swift; sourceTree = "<group>"; };
 		7993263B2AB401A70064B0A1 /* AuthTextModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthTextModifier.swift; sourceTree = "<group>"; };
@@ -62,6 +61,7 @@
 		79E315E62AAAC22F00E9E586 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchView.swift; path = ../../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/View/Search/SearchView.swift; sourceTree = "<group>"; };
 		79E315EA2AAAC41600E9E586 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CircleImage.swift; path = ../../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/View/Components/CircleImage.swift; sourceTree = "<group>"; };
 		79E762D32B06F91000B185BB /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegisterViewModel.swift; path = ../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/ViewModel/RegisterViewModel.swift; sourceTree = "<group>"; };
+		79E762D52B0700A900B185BB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +126,7 @@
 		79C6450D2AA16E2300988F4A /* InstaCloneJue */ = {
 			isa = PBXGroup;
 			children = (
+				79E762D52B0700A900B185BB /* GoogleService-Info.plist */,
 				79D92E9F2AF4826A00B13BC0 /* Service */,
 				79437EDC2ACFA6ED00C81611 /* ViewModel */,
 				79437ED92ACFA66700C81611 /* Model */,
@@ -133,7 +134,6 @@
 				79C6450E2AA16E2300988F4A /* InstaCloneJueApp.swift */,
 				79C645102AA16E2300988F4A /* ContentView.swift */,
 				79C645122AA16E2900988F4A /* Assets.xcassets */,
-				79437EDF2ACFB5E100C81611 /* GoogleService-Info.plist */,
 				79C645142AA16E2900988F4A /* Preview Content */,
 			);
 			path = InstaCloneJue;
@@ -289,7 +289,7 @@
 			files = (
 				79C645162AA16E2900988F4A /* Preview Assets.xcassets in Resources */,
 				79C645132AA16E2900988F4A /* Assets.xcassets in Resources */,
-				79437EE02ACFB5E100C81611 /* GoogleService-Info.plist in Resources */,
+				79E762D62B0700AB00B185BB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
