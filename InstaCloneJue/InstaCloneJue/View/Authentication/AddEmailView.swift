@@ -1,7 +1,8 @@
 import SwiftUI
 
 struct AddEmailView: View {
-    @State var email: String = ""
+    // @State var email: String = ""
+    @EnvironmentObject var registerViewModel: RegisterViewModel // This is a "global object"
     @Environment(\.dismiss) var dismiss // code needed to execute the dismiss method
     var body: some View {
         NavigationStack {
@@ -18,7 +19,8 @@ struct AddEmailView: View {
                     .padding(.top, 20)
                 
                 // Email
-                TextField("Enter your email", text: $email)
+                //TextField("Enter your email", text: $email)
+                TextField("Enter your email", text: $registerViewModel.email)
                     .autocapitalization(.none)
                     .modifier(AuthTextModifier())
                     .cornerRadius(10)

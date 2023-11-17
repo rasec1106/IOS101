@@ -33,6 +33,7 @@
 		79E315E42AAAAB0B00E9E586 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E315E32AAAAB0B00E9E586 /* FeedCell.swift */; };
 		79E315E72AAAC22F00E9E586 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E315E62AAAC22F00E9E586 /* SearchView.swift */; };
 		79E315EB2AAAC41600E9E586 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E315EA2AAAC41600E9E586 /* CircleImage.swift */; };
+		79E762D42B06F91000B185BB /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79E762D32B06F91000B185BB /* RegisterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		79E315E32AAAAB0B00E9E586 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FeedCell.swift; path = ../../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/View/Feed/FeedCell.swift; sourceTree = "<group>"; };
 		79E315E62AAAC22F00E9E586 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchView.swift; path = ../../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/View/Search/SearchView.swift; sourceTree = "<group>"; };
 		79E315EA2AAAC41600E9E586 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CircleImage.swift; path = ../../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/View/Components/CircleImage.swift; sourceTree = "<group>"; };
+		79E762D32B06F91000B185BB /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RegisterViewModel.swift; path = ../../../../../../../Suite/Documents/CesarHerrera/IOS101/InstaCloneJue/InstaCloneJue/ViewModel/RegisterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				79D92EA22AF48F9700B13BC0 /* ContentViewModel.swift */,
+				79E762D32B06F91000B185BB /* RegisterViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				79D96B8D2ABD31EE0080DED9 /* CompleteSignUpView.swift in Sources */,
 				799326382AB3E5EF0064B0A1 /* LoginView.swift in Sources */,
 				79437EDB2ACFA6D200C81611 /* User.swift in Sources */,
+				79E762D42B06F91000B185BB /* RegisterViewModel.swift in Sources */,
 				7993263A2AB3F9490064B0A1 /* AddEmailView.swift in Sources */,
 				79E315EB2AAAC41600E9E586 /* CircleImage.swift in Sources */,
 				7993263C2AB401A70064B0A1 /* AuthTextModifier.swift in Sources */,

@@ -1,10 +1,3 @@
-//
-//  ContentViewModel.swift
-//  InstaCloneJue
-//
-//  Created by Suite on 2/11/23.
-//
-
 import Foundation
 import FirebaseAuth
 import Combine
