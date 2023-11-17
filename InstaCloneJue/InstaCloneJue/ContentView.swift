@@ -13,7 +13,6 @@ struct ContentView: View {
     @State var username = "hola"
     var body: some View {
         if (viewModel.userSession == nil){
-            viewModel.
             LoginView()
         }else{
             MainTabView()

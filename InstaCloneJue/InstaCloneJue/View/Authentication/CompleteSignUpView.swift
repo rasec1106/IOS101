@@ -2,6 +2,9 @@ import SwiftUI
 
 struct CompleteSignUpView: View {
     @Environment(\.dismiss) var dismiss // code needed to execute the dismiss method
+    
+    // Add this line assuming you have a ContentViewModel accessible
+    @StateObject var viewModel = ContentViewModel()
     var body: some View {
         NavigationStack {
             VStack(spacing: 12) {
@@ -15,10 +18,23 @@ struct CompleteSignUpView: View {
                     .fontWeight(.semibold)
                     .padding(.top, 20)
                 
-                NavigationLink {
-                    MainTabView()
-                        .navigationBarBackButtonHidden(true) // this is to hide the default Back button
-                } label: {
+//                NavigationLink {
+//                    MainTabView()
+//                        .navigationBarBackButtonHidden(true) // this is to hide the default Back button
+//
+//                } label: {
+//                    Text("Next")
+//                        .font(.footnote)
+//                        .fontWeight(.semibold)
+//                        .foregroundColor(.white)
+//                        .frame(width: 360, height: 44)
+//                        .background(Color(.systemBlue))
+//                        .cornerRadius(8)
+//                }
+                Button(action: {
+                    // Call the signUp function from the ViewModel
+                    viewModel.signUp(email: "test@gmail.com", username:"username", password: "password")
+                }) {
                     Text("Next")
                         .font(.footnote)
                         .fontWeight(.semibold)

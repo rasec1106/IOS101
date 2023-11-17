@@ -22,7 +22,21 @@ class AuthService{
     }
     
     func createUser(email: String, username: String, password: String) async throws {
-        
+        Auth.auth().createUser(withEmail: email, password: password) { (authResult, error) in
+                // Comprueba si hubo algún error durante la creación del usuario
+                if let error = error {
+                    print("Error al crear un nuevo usuario: \(error.localizedDescription)")
+                    return
+                }
+                
+                // El usuario se creó con éxito
+                print("Usuario creado con éxito")
+                
+                // Puedes acceder a la información del usuario recién creado utilizando authResult
+                // authResult?.user.uid contiene el UID del usuario
+                
+                // También puedes realizar otras acciones después de crear el usuario, como redirigir a otra pantalla, etc.
+            }
     }
     
     func loadUsers() async throws{
