@@ -24,15 +24,4 @@ class ContentViewModel: ObservableObject{ //
         .store(in: &cancellation)
     }
     
-    // Función para registrar un nuevo usuario
-    func signUp(email: String, username: String, password: String) {
-        service.createUser(email: email, username: username, password: password) { success, error in
-            if success {
-                // Registro exitoso, puedes realizar acciones adicionales aquí
-            } else {
-                // Hubo un error durante el registro, manejar el error según sea necesario
-                print("Error durante el registro: \(error?.localizedDescription ?? "Error desconocido")")
-            }
-        }
-    }
 }

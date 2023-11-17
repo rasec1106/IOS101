@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct CreatePasswordView: View {
-    @State var password: String = ""
+//    @State var password: String = ""
+    @EnvironmentObject var registerViewModel: RegisterViewModel // This is a "global object"
     @Environment(\.dismiss) var dismiss // code needed to execute the dismiss method
     var body: some View {
         NavigationStack {
@@ -22,7 +23,8 @@ struct CreatePasswordView: View {
                     .foregroundColor(.gray)
                     .fontWeight(.semibold)
                     .padding(.top, 20)
-                SecureField("Password", text: $password)
+//                SecureField("Password", text: $password)
+                SecureField("Password", text: $registerViewModel.password)
                     .autocapitalization(.none)
                     .modifier(AuthTextModifier())
                     .cornerRadius(10)

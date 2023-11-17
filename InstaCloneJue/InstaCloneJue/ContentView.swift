@@ -10,10 +10,12 @@ import SwiftUI
 struct ContentView: View {
     // StateObject is to subscribe
     @StateObject var viewModel = ContentViewModel()
-    @State var username = "hola"
+    // Creating an instance of the registerViewModel
+    @StateObject var registerViewModel: RegisterViewModel = RegisterViewModel()
     var body: some View {
         if (viewModel.userSession == nil){
             LoginView()
+                .environmentObject(registerViewModel)
         }else{
             MainTabView()
         }

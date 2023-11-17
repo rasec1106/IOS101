@@ -1,7 +1,8 @@
 import SwiftUI
 
 struct CreateUsernameView: View {
-    @State var username: String = ""
+//    @State var username: String = ""
+    @EnvironmentObject var registerViewModel: RegisterViewModel // This is a "global object"
     @Environment(\.dismiss) var dismiss // code needed to execute the dismiss method
     var body: some View {
         NavigationStack {
@@ -15,7 +16,8 @@ struct CreateUsernameView: View {
                     .foregroundColor(.gray)
                     .fontWeight(.semibold)
                     .padding(.top, 20)
-                TextField("Username", text: $username)
+//                TextField("Username", text: $username)
+                TextField("Username", text: $registerViewModel.username)
                     .autocapitalization(.none)
                     .modifier(AuthTextModifier())
                     .cornerRadius(10)

@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct CompleteSignUpView: View {
+    @EnvironmentObject var registerViewModel: RegisterViewModel // This is a "global object"
     @Environment(\.dismiss) var dismiss // code needed to execute the dismiss method
     
     // Add this line assuming you have a ContentViewModel accessible
@@ -31,11 +32,14 @@ struct CompleteSignUpView: View {
 //                        .background(Color(.systemBlue))
 //                        .cornerRadius(8)
 //                }
-                Button(action: {
-                    // Call the signUp function from the ViewModel
-                    viewModel.signUp(email: "test@gmail.com", username:"username", password: "password")
-                }) {
-                    Text("Next")
+                Button{
+                    Task{
+                        // Call the creatUser function from the RegisterViewModel
+                        try await registerViewModel.createUser()
+                    }
+                    
+                } label: {
+                    Text("Ok")
                         .font(.footnote)
                         .fontWeight(.semibold)
                         .foregroundColor(.white)
